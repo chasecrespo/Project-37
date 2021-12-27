@@ -18,7 +18,7 @@
 
        
       //Your web app's Firebase configuration
-      const firebaseConfig = {
+      var firebaseConfig = {
     apiKey: "AIzaSyCycspoRllWE0bpk1RC4ZSwQ6XH5G9D9Ho",
     authDomain: "myquizgame-3f831.firebaseapp.com",
     databaseURL: "https://myquizgame-3f831-default-rtdb.firebaseio.com",
@@ -29,8 +29,7 @@
   };
 
       // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-
+firebase.initializeApp(firebaseConfig);
     </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
